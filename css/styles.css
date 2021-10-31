@@ -1,1 +1,36 @@
-
+body {
+  background: #e5e5e5;
+  color: #757575;
+  font-family: Roboto;
+}
+header {
+  background: #ffffff;
+}
+.navigation-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-item:hover,
+:focus {
+  color: #2196f3;
+}
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+/* цвет заглавия  color: #FFFFFF;*/
+/* цвет подзаголовков color: #212121; */
+/* text colour color: color: #757575; */
