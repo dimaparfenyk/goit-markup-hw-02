@@ -3,21 +3,12 @@ body {
   color: #757575;
   font-family: Roboto;
 }
-header {
+.list {
+  list-style: none;
+}
+/* site header */
+.page-head {
   background: #ffffff;
-}
-.navigation-item {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.navigation-item:hover,
-:focus {
-  color: #2196f3;
 }
 .logo {
   color: #2196f3;
@@ -28,9 +19,15 @@ header {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-ul {
-  list-style: none;
+/* site navigation */
+.site-nav .link {
+  color: #212121;
 }
+.site-nav .link :hover,
+.site-nav .link :focus {
+  color: #2196f3;
+}
+
 /* цвет заглавия  color: #FFFFFF;*/
 /* цвет подзаголовков color: #212121; */
 /* text colour color: color: #757575; */
