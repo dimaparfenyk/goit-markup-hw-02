@@ -61,7 +61,16 @@ body {
 .site-contacts a {
   color: rgba(255, 255, 255, 0.6);
 }
-
+/* оформление портфолио */
+.button-list button {
+  background: #f5f4fa;
+  color: #212121;
+}
+.button-list button:hover,
+.button-list button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
 /* цвет заглавия  color: #FFFFFF;*/
 /* цвет подзаголовков color: #212121; */
 /* text colour color: color: #757575; */ ;
