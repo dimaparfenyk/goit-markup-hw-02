@@ -13,23 +13,20 @@ body {
 /* оформление логотипа */
 .logo {
   color: #2196f3;
+  font-family: Raleway;
 }
 .logo:hover,
 .logo:focus {
   color: #212121;
 }
-
 /* site navigation */
 .link {
   color: #212121;
 }
-.site-nav .link :hover,
-.site-nav .link :focus {
-  color: #2196f3;
-}
-
+.site-nav .link,
 .contacts :hover,
-.contacts :focus {
+.site-nav .link,
+.contacts:focus {
   color: #2196f3;
 }
 /* оформление главной секции*/
@@ -54,7 +51,8 @@ body {
 .team-section {
   background-color: #f5f4fa;
 }
-.team-text {
+.team-text,
+.company-projects {
   background-color: #ffffff;
 }
 /* оформление футера */
@@ -71,6 +69,3 @@ body {
   background: #2196f3;
   color: #ffffff;
 }
-/* цвет заглавия  color: #FFFFFF;*/
-/* цвет подзаголовков color: #212121; */
-/* text colour color: color: #757575; */ ;
