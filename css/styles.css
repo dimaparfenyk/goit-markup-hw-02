@@ -9,14 +9,23 @@
 body {
   background: #e5e5e5;
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, Helvetica, sans-serif;
 }
 .list {
   list-style: none;
 }
+.logo,
+a {
+  text-decoration: none;
+}
+
 /* оформление логотипа */
 .logo {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: bold;
 }
 .logo span {
   color: var(--primary-title-color);
@@ -36,13 +45,57 @@ body {
 .contacts .link {
   color: var(--primary-text-color);
 }
+.site-nav,
+.contacts {
+  font-size: 14px;
+  line-height: 1.15;
+}
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
 }
+/* оформление главной секции и футера*/
+.top-section .title,
+.button {
+  color: #ffffff;
+}
+.top-section .title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+.top-section .button {
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: bold;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.button,
+.filter-button {
+  font-family: inherit;
+}
+.top-section,
+.bottom-page {
+  background-color: var(--top-section-background-color);
+}
 /* оформление секций */
 .section .title {
   color: var(--primary-title-color);
+}
+.section h3 {
+  font-size: 16px;
+  line-height: 1.14;
+  font-weight: bold;
+}
+.company-skills p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section h2 {
+  font-size: 36px;
+  line-height: 1.166;
+  font-weight: bold;
 }
 .company-team .worker {
   color: var(--primary-title-color);
@@ -54,20 +107,14 @@ body {
   background-color: var(--header-background-color);
   color: var(--primary-title-color);
 }
+.specialist-description h3,
+p {
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 500;
+}
 .specialist-description p {
   color: var(--primary-text-color);
-}
-/* оформление главной секции и футера*/
-.top-section .title,
-.button {
-  color: #ffffff;
-}
-.top-section .button {
-  background-color: var(--accent-color);
-}
-.top-section,
-.bottom-page {
-  background-color: var(--top-section-background-color);
 }
 
 /* оформление футера */
@@ -77,6 +124,40 @@ body {
 }
 .bottom-page span {
   color: #ffffff;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.company-adress,
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* оформление портфолио */
+.filter-button {
+  color: var(--primary-title-color);
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+}
+.projects-description {
+  background-color: var(--header-background-color);
+}
+.projects-description .title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 500;
+}
+.projects-description p {
+  font-size: 16px;
+  line-height: 1.875;
 }
 
 /* основной цвет текста #757575 */
