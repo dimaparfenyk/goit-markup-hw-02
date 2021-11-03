@@ -1,71 +1,42 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+}
 body {
   background: #e5e5e5;
-  color: #757575;
+  color: var(--primary-text-color);
   font-family: Roboto;
 }
 .list {
   list-style: none;
 }
-/* site header */
-.page-head {
-  background: #ffffff;
-}
 /* оформление логотипа */
 .logo {
-  color: #2196f3;
-  font-family: Raleway;
+  color: var(--excretion-color);
 }
-.logo:hover,
-.logo:focus {
-  color: #212121;
+.logo span {
+  color: var(--primary-title-color);
 }
-/* site navigation */
-.link {
-  color: #212121;
+/* оформление навигаци по сайту */
+.site-nav .link {
+  color: var(--primary-title-color);
 }
-.site-nav .link,
-.contacts :hover,
-.site-nav .link,
-.contacts:focus {
-  color: #2196f3;
+.site-nav .link :hover,
+.site-nav .link :focus {
+  color: var(--accent-color);
 }
-/* оформление главной секции*/
-.main-section,
-.bottom {
-  background-color: #2f303a;
+/* оформление секций */
+.section .title {
+  color: var(--primary-title-color);
+}
+/* оформление главной секции */
+.top-section > .title {
   color: #ffffff;
 }
-.main-title {
-  color: #ffffff;
-}
-.section-button {
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: #ffffff;
-}
-.title {
-  color: #212121;
-}
-/* оформление секции наша команда */
-.team-section {
-  background-color: #f5f4fa;
-}
-.team-text,
-.company-projects {
-  background-color: #ffffff;
-}
-/* оформление футера */
-.site-contacts a {
-  color: rgba(255, 255, 255, 0.6);
-}
-/* оформление портфолио */
-.button-list button {
-  background: #f5f4fa;
-  color: #212121;
-}
-.button-list button:hover,
-.button-list button:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* цвет текста h1, кнопки и в футере #FFFFFF */
+/* цвет текста логотипа и при наведении #2196F3 */
+/* цвет текста контактов в футере rgba(255, 255, 255, 0.6); */
