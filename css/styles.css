@@ -2,6 +2,9 @@
   --primary-text-color: #757575;
   --primary-title-color: #212121;
   --accent-color: #2196f3;
+  --main-text-color: #ffffff;
+  --header-background-color: #ffffff;
+  --top-section-background-color: #2f303a;
 }
 body {
   background: #e5e5e5;
@@ -13,12 +16,16 @@ body {
 }
 /* оформление логотипа */
 .logo {
-  color: var(--excretion-color);
+  color: var(--accent-color);
 }
 .logo span {
   color: var(--primary-title-color);
 }
 /* оформление навигаци по сайту */
+.top-page,
+.specialist-description {
+  background-color: var(--header-background-color);
+}
 .site-nav .link {
   color: var(--primary-title-color);
 }
@@ -26,12 +33,49 @@ body {
 .site-nav .link :focus {
   color: var(--accent-color);
 }
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
 /* оформление секций */
 .section .title {
   color: var(--primary-title-color);
 }
-/* оформление главной секции */
-.top-section > .title {
+.company-team .worker {
+  color: var(--primary-title-color);
+}
+.company-team span {
+  color: var(--primary-text-color);
+}
+.specialist-description {
+  background-color: var(--header-background-color);
+  color: var(--primary-title-color);
+}
+.specialist-description p {
+  color: var(--primary-text-color);
+}
+/* оформление главной секции и футера*/
+.top-section .title,
+.button {
+  color: #ffffff;
+}
+.top-section .button {
+  background-color: var(--accent-color);
+}
+.top-section,
+.bottom-page {
+  background-color: var(--top-section-background-color);
+}
+
+/* оформление футера */
+.company-adress {
+  color: var(--main-text-color);
+  font-style: normal;
+}
+.bottom-page span {
   color: #ffffff;
 }
 
