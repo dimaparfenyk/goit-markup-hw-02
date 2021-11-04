@@ -95,8 +95,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
 }
-.company-skills h3,
-p {
+.company-skills h3 {
   text-transform: uppercase;
 }
 .section h2 {
